@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C1F040DF22B76C649FB2B82 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCBB4F6F0F490E7C8D04B67 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		54815DD41BD6A32600F43B53 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54815DD31BD6A32600F43B53 /* UIColorExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		8031E82B1B8B58E50012F15D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031E82A1B8B58E50012F15D /* AppDelegate.swift */; };
+		8031E8301B8B58E50012F15D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8031E82E1B8B58E50012F15D /* Main.storyboard */; };
+		8031E8321B8B58E50012F15D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8031E8311B8B58E50012F15D /* Images.xcassets */; };
+		8031E8351B8B58E50012F15D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8031E8331B8B58E50012F15D /* LaunchScreen.xib */; };
+		8031E8411B8B58E60012F15D /* TorcidaColoradaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031E8401B8B58E60012F15D /* TorcidaColoradaTests.swift */; };
+		8031E8511B8B59280012F15D /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031E84A1B8B59280012F15D /* AboutTableViewController.swift */; };
+		8031E8521B8B59280012F15D /* FriendsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031E84B1B8B59280012F15D /* FriendsCollectionViewCell.swift */; };
+		8031E8541B8B59280012F15D /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031E84D1B8B59280012F15D /* FriendsViewController.swift */; };
+		8031E8551B8B59280012F15D /* SoundsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031E84E1B8B59280012F15D /* SoundsTableViewCell.swift */; };
+		8031E8561B8B59280012F15D /* SoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031E84F1B8B59280012F15D /* SoundsViewController.swift */; };
+		8031E8571B8B59280012F15D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031E8501B8B59280012F15D /* WelcomeViewController.swift */; };
+		BF20024A1BB5B7CE00867163 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2002491BB5B7CE00867163 /* UserDefaultsManager.swift */; settings = {ASSET_TAGS = (); }; };
+		BF20024C1BB5B82A00867163 /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF20024B1BB5B82A00867163 /* CoreSpotlight.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BF20024E1BB5B83300867163 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF20024D1BB5B83300867163 /* MobileCoreServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BF2002501BB5BC1900867163 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF20024F1BB5BC1900867163 /* MainViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BF3C056F1B90E4B40084CB15 /* Camisa_Vermelha_Inicio.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF3C056E1B90DE790084CB15 /* Camisa_Vermelha_Inicio.caf */; };
+		BF426A021BC604A1000B43C5 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF426A011BC604A1000B43C5 /* MessagesViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		BF426A041BC60994000B43C5 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF426A031BC60994000B43C5 /* Messages.swift */; settings = {ASSET_TAGS = (); }; };
+		BF426A061BC60E9F000B43C5 /* MessagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF426A051BC60E9F000B43C5 /* MessagesTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		BF426A091BC82792000B43C5 /* MIBadgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF426A081BC82792000B43C5 /* MIBadgeButton.swift */; settings = {ASSET_TAGS = (); }; };
+		BF4C764D1B8B61B1003C273B /* Camisa_Vermelha_Xalaialaia.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C76411B8B61B1003C273B /* Camisa_Vermelha_Xalaialaia.caf */; };
+		BF4C764E1B8B61B1003C273B /* ColoradoQueEhColorado(Nilmar).caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C76421B8B61B1003C273B /* ColoradoQueEhColorado(Nilmar).caf */; };
+		BF4C764F1B8B61B1003C273B /* DalessandroEDaleDalessandro.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C76431B8B61B1003C273B /* DalessandroEDaleDalessandro.caf */; };
+		BF4C76501B8B61B1003C273B /* Dia_de_Inter.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C76441B8B61B1003C273B /* Dia_de_Inter.caf */; };
+		BF4C76511B8B61B1003C273B /* OInterChegaLaCom.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C76451B8B61B1003C273B /* OInterChegaLaCom.caf */; };
+		BF4C76521B8B61B1003C273B /* SalveBodinhoDomEliasFalcao.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C76461B8B61B1003C273B /* SalveBodinhoDomEliasFalcao.caf */; };
+		BF4C76531B8B61B1003C273B /* SeremosCampeoes.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C76471B8B61B1003C273B /* SeremosCampeoes.caf */; };
+		BF4C76541B8B61B1003C273B /* SomosTodosTeusSeguidores.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C76481B8B61B1003C273B /* SomosTodosTeusSeguidores.caf */; };
+		BF4C76551B8B61B1003C273B /* TemaDaVitoria_DaleDaleDaleooo.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C76491B8B61B1003C273B /* TemaDaVitoria_DaleDaleDaleooo.caf */; };
+		BF4C76561B8B61B1003C273B /* TemaDaVitoria_Inicio.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C764A1B8B61B1003C273B /* TemaDaVitoria_Inicio.caf */; };
+		BF4C76571B8B61B1003C273B /* TemAlgumGremistaAquiNo.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C764B1B8B61B1003C273B /* TemAlgumGremistaAquiNo.caf */; };
+		BF4C76581B8B61B1003C273B /* VamoVamoInter.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C764C1B8B61B1003C273B /* VamoVamoInter.caf */; };
+		BF4C765A1B8B61E1003C273B /* PushManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4C76591B8B61E1003C273B /* PushManager.swift */; };
+		BF4C765C1B8B6216003C273B /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4C765B1B8B6216003C273B /* SoundManager.swift */; };
+		BF4C765E1B8B62AE003C273B /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4C765D1B8B62AE003C273B /* UserManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8031E83B1B8B58E60012F15D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8031E81D1B8B58E50012F15D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8031E8241B8B58E50012F15D;
+			remoteInfo = TorcidaColorada;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CCBB4F6F0F490E7C8D04B67 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54815DD31BD6A32600F43B53 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		7BF7128E564C174FC81ACBDF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8031E8251B8B58E50012F15D /* TorcidaColorada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TorcidaColorada.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8031E8291B8B58E50012F15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8031E82A1B8B58E50012F15D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8031E82F1B8B58E50012F15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8031E8311B8B58E50012F15D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8031E8341B8B58E50012F15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8031E83A1B8B58E60012F15D /* TorcidaColoradaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorcidaColoradaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8031E83F1B8B58E60012F15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8031E8401B8B58E60012F15D /* TorcidaColoradaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorcidaColoradaTests.swift; sourceTree = "<group>"; };
+		8031E84A1B8B59280012F15D /* AboutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		8031E84B1B8B59280012F15D /* FriendsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsCollectionViewCell.swift; sourceTree = "<group>"; };
+		8031E84D1B8B59280012F15D /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		8031E84E1B8B59280012F15D /* SoundsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundsTableViewCell.swift; sourceTree = "<group>"; };
+		8031E84F1B8B59280012F15D /* SoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundsViewController.swift; sourceTree = "<group>"; };
+		8031E8501B8B59280012F15D /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		8031E85C1B8B5C140012F15D /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		A95381F6E013B95C7017D99F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BF2002491BB5B7CE00867163 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		BF20024B1BB5B82A00867163 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
+		BF20024D1BB5B83300867163 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BF20024F1BB5BC1900867163 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BF3C056E1B90DE790084CB15 /* Camisa_Vermelha_Inicio.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Camisa_Vermelha_Inicio.caf; sourceTree = "<group>"; };
+		BF426A011BC604A1000B43C5 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		BF426A031BC60994000B43C5 /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		BF426A051BC60E9F000B43C5 /* MessagesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesTableViewCell.swift; sourceTree = "<group>"; };
+		BF426A081BC82792000B43C5 /* MIBadgeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIBadgeButton.swift; sourceTree = "<group>"; };
+		BF4C76411B8B61B1003C273B /* Camisa_Vermelha_Xalaialaia.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Camisa_Vermelha_Xalaialaia.caf; sourceTree = "<group>"; };
+		BF4C76421B8B61B1003C273B /* ColoradoQueEhColorado(Nilmar).caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ColoradoQueEhColorado(Nilmar).caf"; sourceTree = "<group>"; };
+		BF4C76431B8B61B1003C273B /* DalessandroEDaleDalessandro.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DalessandroEDaleDalessandro.caf; sourceTree = "<group>"; };
+		BF4C76441B8B61B1003C273B /* Dia_de_Inter.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dia_de_Inter.caf; sourceTree = "<group>"; };
+		BF4C76451B8B61B1003C273B /* OInterChegaLaCom.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OInterChegaLaCom.caf; sourceTree = "<group>"; };
+		BF4C76461B8B61B1003C273B /* SalveBodinhoDomEliasFalcao.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SalveBodinhoDomEliasFalcao.caf; sourceTree = "<group>"; };
+		BF4C76471B8B61B1003C273B /* SeremosCampeoes.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SeremosCampeoes.caf; sourceTree = "<group>"; };
+		BF4C76481B8B61B1003C273B /* SomosTodosTeusSeguidores.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SomosTodosTeusSeguidores.caf; sourceTree = "<group>"; };
+		BF4C76491B8B61B1003C273B /* TemaDaVitoria_DaleDaleDaleooo.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TemaDaVitoria_DaleDaleDaleooo.caf; sourceTree = "<group>"; };
+		BF4C764A1B8B61B1003C273B /* TemaDaVitoria_Inicio.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TemaDaVitoria_Inicio.caf; sourceTree = "<group>"; };
+		BF4C764B1B8B61B1003C273B /* TemAlgumGremistaAquiNo.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TemAlgumGremistaAquiNo.caf; sourceTree = "<group>"; };
+		BF4C764C1B8B61B1003C273B /* VamoVamoInter.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VamoVamoInter.caf; sourceTree = "<group>"; };
+		BF4C76591B8B61E1003C273B /* PushManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushManager.swift; sourceTree = "<group>"; };
+		BF4C765B1B8B6216003C273B /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		BF4C765D1B8B62AE003C273B /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8031E8221B8B58E50012F15D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF20024E1BB5B83300867163 /* MobileCoreServices.framework in Frameworks */,
+				BF20024C1BB5B82A00867163 /* CoreSpotlight.framework in Frameworks */,
+				0C1F040DF22B76C649FB2B82 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8031E8371B8B58E60012F15D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54815DD21BD6A30E00F43B53 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				54815DD31BD6A32600F43B53 /* UIColorExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		58C546C3E0070FDF5D8023CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A95381F6E013B95C7017D99F /* Pods.debug.xcconfig */,
+				7BF7128E564C174FC81ACBDF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A22153EFE60D42EF790A01F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF20024D1BB5B83300867163 /* MobileCoreServices.framework */,
+				BF20024B1BB5B82A00867163 /* CoreSpotlight.framework */,
+				1CCBB4F6F0F490E7C8D04B67 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8031E81C1B8B58E50012F15D = {
+			isa = PBXGroup;
+			children = (
+				8031E8271B8B58E50012F15D /* TorcidaColorada */,
+				8031E83D1B8B58E60012F15D /* TorcidaColoradaTests */,
+				8031E8261B8B58E50012F15D /* Products */,
+				58C546C3E0070FDF5D8023CE /* Pods */,
+				7A22153EFE60D42EF790A01F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8031E8261B8B58E50012F15D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8031E8251B8B58E50012F15D /* TorcidaColorada.app */,
+				8031E83A1B8B58E60012F15D /* TorcidaColoradaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8031E8271B8B58E50012F15D /* TorcidaColorada */ = {
+			isa = PBXGroup;
+			children = (
+				54815DD21BD6A30E00F43B53 /* Extensions */,
+				8031E85A1B8B5A6E0012F15D /* View */,
+				8031E8591B8B5A680012F15D /* Model */,
+				8031E8581B8B5A5F0012F15D /* Controller */,
+				8031E8281B8B58E50012F15D /* Supporting Files */,
+				BF4C76401B8B61B1003C273B /* Sounds */,
+				BF426A071BC82753000B43C5 /* Frameworks */,
+			);
+			path = TorcidaColorada;
+			sourceTree = "<group>";
+		};
+		8031E8281B8B58E50012F15D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8031E82A1B8B58E50012F15D /* AppDelegate.swift */,
+				8031E8291B8B58E50012F15D /* Info.plist */,
+				8031E85C1B8B5C140012F15D /* BridgingHeader.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8031E83D1B8B58E60012F15D /* TorcidaColoradaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8031E8401B8B58E60012F15D /* TorcidaColoradaTests.swift */,
+				8031E83E1B8B58E60012F15D /* Supporting Files */,
+			);
+			path = TorcidaColoradaTests;
+			sourceTree = "<group>";
+		};
+		8031E83E1B8B58E60012F15D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8031E83F1B8B58E60012F15D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8031E8581B8B5A5F0012F15D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF20024F1BB5BC1900867163 /* MainViewController.swift */,
+				8031E84A1B8B59280012F15D /* AboutTableViewController.swift */,
+				8031E84D1B8B59280012F15D /* FriendsViewController.swift */,
+				8031E84B1B8B59280012F15D /* FriendsCollectionViewCell.swift */,
+				8031E84F1B8B59280012F15D /* SoundsViewController.swift */,
+				8031E84E1B8B59280012F15D /* SoundsTableViewCell.swift */,
+				8031E8501B8B59280012F15D /* WelcomeViewController.swift */,
+				BF426A011BC604A1000B43C5 /* MessagesViewController.swift */,
+				BF426A051BC60E9F000B43C5 /* MessagesTableViewCell.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8031E8591B8B5A680012F15D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF4C76591B8B61E1003C273B /* PushManager.swift */,
+				BF4C765B1B8B6216003C273B /* SoundManager.swift */,
+				BF4C765D1B8B62AE003C273B /* UserManager.swift */,
+				BF2002491BB5B7CE00867163 /* UserDefaultsManager.swift */,
+				BF426A031BC60994000B43C5 /* Messages.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8031E85A1B8B5A6E0012F15D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8031E82E1B8B58E50012F15D /* Main.storyboard */,
+				8031E8331B8B58E50012F15D /* LaunchScreen.xib */,
+				8031E8311B8B58E50012F15D /* Images.xcassets */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BF426A071BC82753000B43C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF426A081BC82792000B43C5 /* MIBadgeButton.swift */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF4C76401B8B61B1003C273B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BF4C76411B8B61B1003C273B /* Camisa_Vermelha_Xalaialaia.caf */,
+				BF4C76421B8B61B1003C273B /* ColoradoQueEhColorado(Nilmar).caf */,
+				BF4C76431B8B61B1003C273B /* DalessandroEDaleDalessandro.caf */,
+				BF4C76441B8B61B1003C273B /* Dia_de_Inter.caf */,
+				BF4C76451B8B61B1003C273B /* OInterChegaLaCom.caf */,
+				BF4C76461B8B61B1003C273B /* SalveBodinhoDomEliasFalcao.caf */,
+				BF4C76471B8B61B1003C273B /* SeremosCampeoes.caf */,
+				BF3C056E1B90DE790084CB15 /* Camisa_Vermelha_Inicio.caf */,
+				BF4C76481B8B61B1003C273B /* SomosTodosTeusSeguidores.caf */,
+				BF4C76491B8B61B1003C273B /* TemaDaVitoria_DaleDaleDaleooo.caf */,
+				BF4C764A1B8B61B1003C273B /* TemaDaVitoria_Inicio.caf */,
+				BF4C764B1B8B61B1003C273B /* TemAlgumGremistaAquiNo.caf */,
+				BF4C764C1B8B61B1003C273B /* VamoVamoInter.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8031E8241B8B58E50012F15D /* TorcidaColorada */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8031E8441B8B58E60012F15D /* Build configuration list for PBXNativeTarget "TorcidaColorada" */;
+			buildPhases = (
+				03F998395D965AD839DE2006 /* Check Pods Manifest.lock */,
+				8031E8211B8B58E50012F15D /* Sources */,
+				8031E8221B8B58E50012F15D /* Frameworks */,
+				8031E8231B8B58E50012F15D /* Resources */,
+				A3DB5D981741E8988BE1D405 /* Copy Pods Resources */,
+				02A903069BC5EB08FE9D093D /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TorcidaColorada;
+			productName = TorcidaColorada;
+			productReference = 8031E8251B8B58E50012F15D /* TorcidaColorada.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8031E8391B8B58E60012F15D /* TorcidaColoradaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8031E8471B8B58E60012F15D /* Build configuration list for PBXNativeTarget "TorcidaColoradaTests" */;
+			buildPhases = (
+				8031E8361B8B58E60012F15D /* Sources */,
+				8031E8371B8B58E60012F15D /* Frameworks */,
+				8031E8381B8B58E60012F15D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8031E83C1B8B58E60012F15D /* PBXTargetDependency */,
+			);
+			name = TorcidaColoradaTests;
+			productName = TorcidaColoradaTests;
+			productReference = 8031E83A1B8B58E60012F15D /* TorcidaColoradaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8031E81D1B8B58E50012F15D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Moisés Pio";
+				TargetAttributes = {
+					8031E8241B8B58E50012F15D = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = YR3S2CY7HM;
+					};
+					8031E8391B8B58E60012F15D = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8031E8241B8B58E50012F15D;
+					};
+				};
+			};
+			buildConfigurationList = 8031E8201B8B58E50012F15D /* Build configuration list for PBXProject "TorcidaColorada" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8031E81C1B8B58E50012F15D;
+			productRefGroup = 8031E8261B8B58E50012F15D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8031E8241B8B58E50012F15D /* TorcidaColorada */,
+				8031E8391B8B58E60012F15D /* TorcidaColoradaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8031E8231B8B58E50012F15D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4C76501B8B61B1003C273B /* Dia_de_Inter.caf in Resources */,
+				BF4C76511B8B61B1003C273B /* OInterChegaLaCom.caf in Resources */,
+				BF4C76561B8B61B1003C273B /* TemaDaVitoria_Inicio.caf in Resources */,
+				BF4C764F1B8B61B1003C273B /* DalessandroEDaleDalessandro.caf in Resources */,
+				8031E8301B8B58E50012F15D /* Main.storyboard in Resources */,
+				BF4C764D1B8B61B1003C273B /* Camisa_Vermelha_Xalaialaia.caf in Resources */,
+				BF4C764E1B8B61B1003C273B /* ColoradoQueEhColorado(Nilmar).caf in Resources */,
+				BF4C76541B8B61B1003C273B /* SomosTodosTeusSeguidores.caf in Resources */,
+				BF4C76551B8B61B1003C273B /* TemaDaVitoria_DaleDaleDaleooo.caf in Resources */,
+				BF4C76531B8B61B1003C273B /* SeremosCampeoes.caf in Resources */,
+				8031E8351B8B58E50012F15D /* LaunchScreen.xib in Resources */,
+				BF4C76571B8B61B1003C273B /* TemAlgumGremistaAquiNo.caf in Resources */,
+				BF4C76581B8B61B1003C273B /* VamoVamoInter.caf in Resources */,
+				BF3C056F1B90E4B40084CB15 /* Camisa_Vermelha_Inicio.caf in Resources */,
+				BF4C76521B8B61B1003C273B /* SalveBodinhoDomEliasFalcao.caf in Resources */,
+				8031E8321B8B58E50012F15D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8031E8381B8B58E60012F15D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02A903069BC5EB08FE9D093D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		03F998395D965AD839DE2006 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3DB5D981741E8988BE1D405 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8031E8211B8B58E50012F15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54815DD41BD6A32600F43B53 /* UIColorExtension.swift in Sources */,
+				8031E82B1B8B58E50012F15D /* AppDelegate.swift in Sources */,
+				8031E8571B8B59280012F15D /* WelcomeViewController.swift in Sources */,
+				BF426A021BC604A1000B43C5 /* MessagesViewController.swift in Sources */,
+				BF426A091BC82792000B43C5 /* MIBadgeButton.swift in Sources */,
+				BF426A041BC60994000B43C5 /* Messages.swift in Sources */,
+				8031E8541B8B59280012F15D /* FriendsViewController.swift in Sources */,
+				BF2002501BB5BC1900867163 /* MainViewController.swift in Sources */,
+				8031E8521B8B59280012F15D /* FriendsCollectionViewCell.swift in Sources */,
+				BF426A061BC60E9F000B43C5 /* MessagesTableViewCell.swift in Sources */,
+				BF20024A1BB5B7CE00867163 /* UserDefaultsManager.swift in Sources */,
+				8031E8511B8B59280012F15D /* AboutTableViewController.swift in Sources */,
+				BF4C765A1B8B61E1003C273B /* PushManager.swift in Sources */,
+				8031E8561B8B59280012F15D /* SoundsViewController.swift in Sources */,
+				8031E8551B8B59280012F15D /* SoundsTableViewCell.swift in Sources */,
+				BF4C765E1B8B62AE003C273B /* UserManager.swift in Sources */,
+				BF4C765C1B8B6216003C273B /* SoundManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8031E8361B8B58E60012F15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8031E8411B8B58E60012F15D /* TorcidaColoradaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8031E83C1B8B58E60012F15D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8031E8241B8B58E50012F15D /* TorcidaColorada */;
+			targetProxy = 8031E83B1B8B58E60012F15D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8031E82E1B8B58E50012F15D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8031E82F1B8B58E50012F15D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8031E8331B8B58E50012F15D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8031E8341B8B58E50012F15D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8031E8421B8B58E60012F15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8031E8431B8B58E60012F15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8031E8451B8B58E60012F15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A95381F6E013B95C7017D99F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = TorcidaColorada/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bepid.StoreAnalytics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = TorcidaColorada/BridgingHeader.h;
+			};
+			name = Debug;
+		};
+		8031E8461B8B58E60012F15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BF7128E564C174FC81ACBDF /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = TorcidaColorada/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bepid.StoreAnalytics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = TorcidaColorada/BridgingHeader.h;
+			};
+			name = Release;
+		};
+		8031E8481B8B58E60012F15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TorcidaColoradaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.mpio.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TorcidaColorada.app/TorcidaColorada";
+			};
+			name = Debug;
+		};
+		8031E8491B8B58E60012F15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = TorcidaColoradaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.mpio.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TorcidaColorada.app/TorcidaColorada";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8031E8201B8B58E50012F15D /* Build configuration list for PBXProject "TorcidaColorada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8031E8421B8B58E60012F15D /* Debug */,
+				8031E8431B8B58E60012F15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8031E8441B8B58E60012F15D /* Build configuration list for PBXNativeTarget "TorcidaColorada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8031E8451B8B58E60012F15D /* Debug */,
+				8031E8461B8B58E60012F15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8031E8471B8B58E60012F15D /* Build configuration list for PBXNativeTarget "TorcidaColoradaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8031E8481B8B58E60012F15D /* Debug */,
+				8031E8491B8B58E60012F15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8031E81D1B8B58E50012F15D /* Project object */;
+}
