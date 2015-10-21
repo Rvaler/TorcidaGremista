@@ -124,9 +124,10 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="313"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon" translatesAutoresizingMaskIntoConstraints="NO" id="Wjt-Lq-JYC">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wjt-Lq-JYC">
                                                     <rect key="frame" x="248" y="45" width="105" height="105"/>
                                                     <animations/>
+                                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="105" id="CUu-kQ-dUV"/>
                                                         <constraint firstAttribute="height" constant="105" id="uWk-OA-JQY"/>
@@ -154,8 +155,8 @@
                                                         <constraint firstAttribute="height" constant="1" id="6nN-rp-XEo"/>
                                                     </constraints>
                                                 </view>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Um aplicativo do Grêmio Football Porto Alegrense" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZ8-Sc-JhK">
-                                                    <rect key="frame" x="132" y="266" width="337" height="18"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Um aplicativo do Grêmio Football Porto Alegrense" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZ8-Sc-JhK">
+                                                    <rect key="frame" x="8" y="266" width="584" height="18"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                                     <color key="textColor" red="0.51764705879999995" green="0.51764705879999995" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -164,6 +165,7 @@
                                             </subviews>
                                             <animations/>
                                             <constraints>
+                                                <constraint firstItem="xZ8-Sc-JhK" firstAttribute="leading" secondItem="aNF-tW-uGE" secondAttribute="leading" constant="8" id="343-4M-BAk"/>
                                                 <constraint firstItem="yD2-OK-XdX" firstAttribute="top" secondItem="Om0-Bq-c7L" secondAttribute="top" constant="45" id="40J-fZ-yZf"/>
                                                 <constraint firstItem="Om0-Bq-c7L" firstAttribute="top" secondItem="E0b-RJ-h06" secondAttribute="bottom" constant="3" id="4Ng-Ck-f0N"/>
                                                 <constraint firstItem="Om0-Bq-c7L" firstAttribute="centerX" secondItem="aNF-tW-uGE" secondAttribute="centerX" id="79l-Fv-cd7"/>
@@ -176,6 +178,7 @@
                                                 <constraint firstItem="E0b-RJ-h06" firstAttribute="centerX" secondItem="aNF-tW-uGE" secondAttribute="centerX" id="vR7-H0-vAp"/>
                                                 <constraint firstItem="yD2-OK-XdX" firstAttribute="leading" secondItem="aNF-tW-uGE" secondAttribute="leadingMargin" constant="-8" id="wqV-3v-ThR"/>
                                                 <constraint firstItem="xZ8-Sc-JhK" firstAttribute="centerX" secondItem="aNF-tW-uGE" secondAttribute="centerX" id="yXO-cj-4nw"/>
+                                                <constraint firstAttribute="trailing" secondItem="xZ8-Sc-JhK" secondAttribute="trailing" constant="8" id="ykf-5E-Q2C"/>
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="constraints">
@@ -194,7 +197,7 @@
                                         <rect key="frame" x="0.0" y="462" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3vO-sg-WLi" id="ibS-zf-Oa8">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moisés Pio" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4c-7E-fkn">
@@ -217,7 +220,7 @@
                                         <rect key="frame" x="0.0" y="506" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FoM-W6-yVw" id="caN-nv-yqF">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Matheus Frozzi" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEz-tk-oDy">
@@ -240,7 +243,7 @@
                                         <rect key="frame" x="0.0" y="550" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pIb-uS-IEa" id="qKQ-4W-nOC">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paulo Rasera" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oad-KA-C5F">
@@ -263,7 +266,7 @@
                                         <rect key="frame" x="0.0" y="594" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5Dv-w3-OPp" id="FKo-wZ-th1">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rafael Valer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Owf-nF-U2C">
@@ -677,7 +680,7 @@
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="WLK-GF-CEt">
                                 <rect key="frame" x="281" y="281" width="37" height="37"/>
                                 <animations/>
-                                <color key="color" red="0.83137254901960789" green="0.0" blue="0.027450980392156862" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="color" red="0.098039215690000001" green="0.57254901960000004" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
                             </activityIndicatorView>
                         </subviews>
                         <animations/>
@@ -730,7 +733,6 @@
     </scenes>
     <resources>
         <image name="Cell" width="330" height="330"/>
-        <image name="Icon" width="211" height="211"/>
         <image name="Play" width="27" height="32"/>
         <image name="Preferences" width="20" height="19"/>
         <image name="Send" width="42" height="36"/>
