@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0C1F040DF22B76C649FB2B82 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCBB4F6F0F490E7C8D04B67 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		54815DD41BD6A32600F43B53 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54815DD31BD6A32600F43B53 /* UIColorExtension.swift */; settings = {ASSET_TAGS = (); }; };
+		54815DD41BD6A32600F43B53 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54815DD31BD6A32600F43B53 /* UIColorExtension.swift */; };
 		8031E82B1B8B58E50012F15D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031E82A1B8B58E50012F15D /* AppDelegate.swift */; };
 		8031E8301B8B58E50012F15D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8031E82E1B8B58E50012F15D /* Main.storyboard */; };
 		8031E8321B8B58E50012F15D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8031E8311B8B58E50012F15D /* Images.xcassets */; };
@@ -20,27 +20,14 @@
 		8031E8551B8B59280012F15D /* SoundsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031E84E1B8B59280012F15D /* SoundsTableViewCell.swift */; };
 		8031E8561B8B59280012F15D /* SoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031E84F1B8B59280012F15D /* SoundsViewController.swift */; };
 		8031E8571B8B59280012F15D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8031E8501B8B59280012F15D /* WelcomeViewController.swift */; };
-		BF20024A1BB5B7CE00867163 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2002491BB5B7CE00867163 /* UserDefaultsManager.swift */; settings = {ASSET_TAGS = (); }; };
+		BF20024A1BB5B7CE00867163 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2002491BB5B7CE00867163 /* UserDefaultsManager.swift */; };
 		BF20024C1BB5B82A00867163 /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF20024B1BB5B82A00867163 /* CoreSpotlight.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		BF20024E1BB5B83300867163 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF20024D1BB5B83300867163 /* MobileCoreServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		BF2002501BB5BC1900867163 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF20024F1BB5BC1900867163 /* MainViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		BF3C056F1B90E4B40084CB15 /* Camisa_Vermelha_Inicio.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF3C056E1B90DE790084CB15 /* Camisa_Vermelha_Inicio.caf */; };
-		BF426A021BC604A1000B43C5 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF426A011BC604A1000B43C5 /* MessagesViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		BF426A041BC60994000B43C5 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF426A031BC60994000B43C5 /* Messages.swift */; settings = {ASSET_TAGS = (); }; };
-		BF426A061BC60E9F000B43C5 /* MessagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF426A051BC60E9F000B43C5 /* MessagesTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
-		BF426A091BC82792000B43C5 /* MIBadgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF426A081BC82792000B43C5 /* MIBadgeButton.swift */; settings = {ASSET_TAGS = (); }; };
-		BF4C764D1B8B61B1003C273B /* Camisa_Vermelha_Xalaialaia.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C76411B8B61B1003C273B /* Camisa_Vermelha_Xalaialaia.caf */; };
-		BF4C764E1B8B61B1003C273B /* ColoradoQueEhColorado(Nilmar).caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C76421B8B61B1003C273B /* ColoradoQueEhColorado(Nilmar).caf */; };
-		BF4C764F1B8B61B1003C273B /* DalessandroEDaleDalessandro.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C76431B8B61B1003C273B /* DalessandroEDaleDalessandro.caf */; };
-		BF4C76501B8B61B1003C273B /* Dia_de_Inter.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C76441B8B61B1003C273B /* Dia_de_Inter.caf */; };
-		BF4C76511B8B61B1003C273B /* OInterChegaLaCom.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C76451B8B61B1003C273B /* OInterChegaLaCom.caf */; };
-		BF4C76521B8B61B1003C273B /* SalveBodinhoDomEliasFalcao.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C76461B8B61B1003C273B /* SalveBodinhoDomEliasFalcao.caf */; };
-		BF4C76531B8B61B1003C273B /* SeremosCampeoes.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C76471B8B61B1003C273B /* SeremosCampeoes.caf */; };
-		BF4C76541B8B61B1003C273B /* SomosTodosTeusSeguidores.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C76481B8B61B1003C273B /* SomosTodosTeusSeguidores.caf */; };
-		BF4C76551B8B61B1003C273B /* TemaDaVitoria_DaleDaleDaleooo.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C76491B8B61B1003C273B /* TemaDaVitoria_DaleDaleDaleooo.caf */; };
-		BF4C76561B8B61B1003C273B /* TemaDaVitoria_Inicio.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C764A1B8B61B1003C273B /* TemaDaVitoria_Inicio.caf */; };
-		BF4C76571B8B61B1003C273B /* TemAlgumGremistaAquiNo.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C764B1B8B61B1003C273B /* TemAlgumGremistaAquiNo.caf */; };
-		BF4C76581B8B61B1003C273B /* VamoVamoInter.caf in Resources */ = {isa = PBXBuildFile; fileRef = BF4C764C1B8B61B1003C273B /* VamoVamoInter.caf */; };
+		BF2002501BB5BC1900867163 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF20024F1BB5BC1900867163 /* MainViewController.swift */; };
+		BF426A021BC604A1000B43C5 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF426A011BC604A1000B43C5 /* MessagesViewController.swift */; };
+		BF426A041BC60994000B43C5 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF426A031BC60994000B43C5 /* Messages.swift */; };
+		BF426A061BC60E9F000B43C5 /* MessagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF426A051BC60E9F000B43C5 /* MessagesTableViewCell.swift */; };
+		BF426A091BC82792000B43C5 /* MIBadgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF426A081BC82792000B43C5 /* MIBadgeButton.swift */; };
 		BF4C765A1B8B61E1003C273B /* PushManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4C76591B8B61E1003C273B /* PushManager.swift */; };
 		BF4C765C1B8B6216003C273B /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4C765B1B8B6216003C273B /* SoundManager.swift */; };
 		BF4C765E1B8B62AE003C273B /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4C765D1B8B62AE003C273B /* UserManager.swift */; };
@@ -58,6 +45,14 @@
 
 /* Begin PBXFileReference section */
 		1CCBB4F6F0F490E7C8D04B67 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5460180E1BDA991800F2FD15 /* bairroDaAzenha.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bairroDaAzenha.caf; sourceTree = "<group>"; };
+		5460180F1BDA991800F2FD15 /* bebendoVinho.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bebendoVinho.caf; sourceTree = "<group>"; };
+		546018101BDA991800F2FD15 /* euSouBorracho.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = euSouBorracho.caf; sourceTree = "<group>"; };
+		546018111BDA991800F2FD15 /* esUmCampeaoMundial.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = esUmCampeaoMundial.caf; sourceTree = "<group>"; };
+		546018121BDA991800F2FD15 /* gremioVaiSairCampeao.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = gremioVaiSairCampeao.caf; sourceTree = "<group>"; };
+		546018131BDA991800F2FD15 /* vamosVamosTricolor.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = vamosVamosTricolor.caf; sourceTree = "<group>"; };
+		546018141BDA991800F2FD15 /* campeoesDaAmerica.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = campeoesDaAmerica.caf; sourceTree = "<group>"; };
+		546018151BDA991800F2FD15 /* tuEsCopeiro.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tuEsCopeiro.caf; sourceTree = "<group>"; };
 		54815DD31BD6A32600F43B53 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		7BF7128E564C174FC81ACBDF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8031E8251B8B58E50012F15D /* TorcidaColorada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TorcidaColorada.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,23 +76,10 @@
 		BF20024B1BB5B82A00867163 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
 		BF20024D1BB5B83300867163 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		BF20024F1BB5BC1900867163 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		BF3C056E1B90DE790084CB15 /* Camisa_Vermelha_Inicio.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Camisa_Vermelha_Inicio.caf; sourceTree = "<group>"; };
 		BF426A011BC604A1000B43C5 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
 		BF426A031BC60994000B43C5 /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
 		BF426A051BC60E9F000B43C5 /* MessagesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesTableViewCell.swift; sourceTree = "<group>"; };
 		BF426A081BC82792000B43C5 /* MIBadgeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIBadgeButton.swift; sourceTree = "<group>"; };
-		BF4C76411B8B61B1003C273B /* Camisa_Vermelha_Xalaialaia.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Camisa_Vermelha_Xalaialaia.caf; sourceTree = "<group>"; };
-		BF4C76421B8B61B1003C273B /* ColoradoQueEhColorado(Nilmar).caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ColoradoQueEhColorado(Nilmar).caf"; sourceTree = "<group>"; };
-		BF4C76431B8B61B1003C273B /* DalessandroEDaleDalessandro.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DalessandroEDaleDalessandro.caf; sourceTree = "<group>"; };
-		BF4C76441B8B61B1003C273B /* Dia_de_Inter.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dia_de_Inter.caf; sourceTree = "<group>"; };
-		BF4C76451B8B61B1003C273B /* OInterChegaLaCom.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OInterChegaLaCom.caf; sourceTree = "<group>"; };
-		BF4C76461B8B61B1003C273B /* SalveBodinhoDomEliasFalcao.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SalveBodinhoDomEliasFalcao.caf; sourceTree = "<group>"; };
-		BF4C76471B8B61B1003C273B /* SeremosCampeoes.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SeremosCampeoes.caf; sourceTree = "<group>"; };
-		BF4C76481B8B61B1003C273B /* SomosTodosTeusSeguidores.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SomosTodosTeusSeguidores.caf; sourceTree = "<group>"; };
-		BF4C76491B8B61B1003C273B /* TemaDaVitoria_DaleDaleDaleooo.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TemaDaVitoria_DaleDaleDaleooo.caf; sourceTree = "<group>"; };
-		BF4C764A1B8B61B1003C273B /* TemaDaVitoria_Inicio.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TemaDaVitoria_Inicio.caf; sourceTree = "<group>"; };
-		BF4C764B1B8B61B1003C273B /* TemAlgumGremistaAquiNo.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TemAlgumGremistaAquiNo.caf; sourceTree = "<group>"; };
-		BF4C764C1B8B61B1003C273B /* VamoVamoInter.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = VamoVamoInter.caf; sourceTree = "<group>"; };
 		BF4C76591B8B61E1003C273B /* PushManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushManager.swift; sourceTree = "<group>"; };
 		BF4C765B1B8B6216003C273B /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 		BF4C765D1B8B62AE003C273B /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
@@ -261,19 +243,14 @@
 		BF4C76401B8B61B1003C273B /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				BF4C76411B8B61B1003C273B /* Camisa_Vermelha_Xalaialaia.caf */,
-				BF4C76421B8B61B1003C273B /* ColoradoQueEhColorado(Nilmar).caf */,
-				BF4C76431B8B61B1003C273B /* DalessandroEDaleDalessandro.caf */,
-				BF4C76441B8B61B1003C273B /* Dia_de_Inter.caf */,
-				BF4C76451B8B61B1003C273B /* OInterChegaLaCom.caf */,
-				BF4C76461B8B61B1003C273B /* SalveBodinhoDomEliasFalcao.caf */,
-				BF4C76471B8B61B1003C273B /* SeremosCampeoes.caf */,
-				BF3C056E1B90DE790084CB15 /* Camisa_Vermelha_Inicio.caf */,
-				BF4C76481B8B61B1003C273B /* SomosTodosTeusSeguidores.caf */,
-				BF4C76491B8B61B1003C273B /* TemaDaVitoria_DaleDaleDaleooo.caf */,
-				BF4C764A1B8B61B1003C273B /* TemaDaVitoria_Inicio.caf */,
-				BF4C764B1B8B61B1003C273B /* TemAlgumGremistaAquiNo.caf */,
-				BF4C764C1B8B61B1003C273B /* VamoVamoInter.caf */,
+				5460180E1BDA991800F2FD15 /* bairroDaAzenha.caf */,
+				5460180F1BDA991800F2FD15 /* bebendoVinho.caf */,
+				546018101BDA991800F2FD15 /* euSouBorracho.caf */,
+				546018111BDA991800F2FD15 /* esUmCampeaoMundial.caf */,
+				546018121BDA991800F2FD15 /* gremioVaiSairCampeao.caf */,
+				546018131BDA991800F2FD15 /* vamosVamosTricolor.caf */,
+				546018141BDA991800F2FD15 /* campeoesDaAmerica.caf */,
+				546018151BDA991800F2FD15 /* tuEsCopeiro.caf */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -363,21 +340,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF4C76501B8B61B1003C273B /* Dia_de_Inter.caf in Resources */,
-				BF4C76511B8B61B1003C273B /* OInterChegaLaCom.caf in Resources */,
-				BF4C76561B8B61B1003C273B /* TemaDaVitoria_Inicio.caf in Resources */,
-				BF4C764F1B8B61B1003C273B /* DalessandroEDaleDalessandro.caf in Resources */,
 				8031E8301B8B58E50012F15D /* Main.storyboard in Resources */,
-				BF4C764D1B8B61B1003C273B /* Camisa_Vermelha_Xalaialaia.caf in Resources */,
-				BF4C764E1B8B61B1003C273B /* ColoradoQueEhColorado(Nilmar).caf in Resources */,
-				BF4C76541B8B61B1003C273B /* SomosTodosTeusSeguidores.caf in Resources */,
-				BF4C76551B8B61B1003C273B /* TemaDaVitoria_DaleDaleDaleooo.caf in Resources */,
-				BF4C76531B8B61B1003C273B /* SeremosCampeoes.caf in Resources */,
 				8031E8351B8B58E50012F15D /* LaunchScreen.xib in Resources */,
-				BF4C76571B8B61B1003C273B /* TemAlgumGremistaAquiNo.caf in Resources */,
-				BF4C76581B8B61B1003C273B /* VamoVamoInter.caf in Resources */,
-				BF3C056F1B90E4B40084CB15 /* Camisa_Vermelha_Inicio.caf in Resources */,
-				BF4C76521B8B61B1003C273B /* SalveBodinhoDomEliasFalcao.caf in Resources */,
 				8031E8321B8B58E50012F15D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
