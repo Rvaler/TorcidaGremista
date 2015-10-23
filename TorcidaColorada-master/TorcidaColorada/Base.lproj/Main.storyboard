@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="HVQ-zv-ErR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="HVQ-zv-ErR">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -508,7 +508,7 @@
                                                     <rect key="frame" x="84" y="28" width="500" height="20"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -615,7 +615,7 @@
                                                         <action selector="sendPush:" destination="jcg-4o-7HF" eventType="touchUpInside" id="gEa-dY-1sx"/>
                                                     </connections>
                                                 </button>
-                                                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cell" translatesAutoresizingMaskIntoConstraints="NO" id="Vs6-m7-IdH">
+                                                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gremioImage" translatesAutoresizingMaskIntoConstraints="NO" id="Vs6-m7-IdH">
                                                     <rect key="frame" x="218" y="-45" width="165" height="165"/>
                                                     <animations/>
                                                     <constraints>
@@ -732,11 +732,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Cell" width="330" height="330"/>
         <image name="Play" width="27" height="32"/>
         <image name="Preferences" width="20" height="19"/>
         <image name="Send" width="42" height="36"/>
         <image name="WelcomeImage" width="750" height="1334"/>
         <image name="chat-icon" width="22" height="22"/>
+        <image name="gremioImage" width="330" height="330"/>
     </resources>
 </document>
